@@ -25,7 +25,7 @@ dependencies {
 
 2) XML preferences:
 
-Add the desired preferences ( `MaterialPreference` , `MaterialSwitchPreference` , `MaterialHeaderSwitchPreference` , `MaterialListPreference` , `MaterialEditTextPreference` )
+Add the desired preferences ( `MaterialPreference` , `MaterialSwitchPreference`, `MaterialSwitchGooglePreference` , `MaterialHeaderSwitchPreference` , `MaterialListPreference` , `MaterialEditTextPreference` )
  to your preference XML:
 
 ```xml
@@ -53,4 +53,6 @@ Add the desired preferences ( `MaterialPreference` , `MaterialSwitchPreference` 
 To remove dividers between preferences in XML, use the following attributes:
 
 ```app:allowDividerAbove="false"``` or ```app:allowDividerBelow="false"```
+
+MaterialSwitchPreference is the switch you commonly see in AOSP android 12 and later, while MaterialSwitchGooglePreference is the "preferenced" version of Google's MaterialSwitch.
 
