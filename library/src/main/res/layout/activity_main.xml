@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.github.tstewart.materialpreferencesfragment.MainActivity">
+    tools:context="com.github.tttt55.materialyoupreferences.MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/settingsFragment"
-        android:name="com.github.tstewart.materialpreferencesfragment.sample.MainPreferenceFragment"
+        android:name="com.github.tttt55.materialyoupreferences.sample.MainPreferenceFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

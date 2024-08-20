@@ -1,14 +1,13 @@
-package com.github.tstewart.materialpreferencesfragment.preferences;
+package com.github.tttt55.materialyoupreferences.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.preference.SwitchPreference;
 
-import com.github.tstewart.materialpreferencesfragment.R;
+import com.github.tttt55.materialyoupreferences.R;
 
 public class MaterialHeaderSwitchPreference extends SwitchPreference {
 

@@ -1,9 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
-group = 'com.github.tstewart'
+group = 'com.github.tttt55'
 
 android {
-    namespace 'com.github.tstewart.materialpreferencesfragment'
+    namespace 'com.github.tttt55.materialyoupreferences'
     compileSdk 34
 
     defaultConfig {
@@ -50,8 +50,8 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.tstewart'
-                artifactId = 'MaterialPreferencesFragment'
+                groupId = 'com.github.tttt55'
+                artifactId = 'MaterialYouPreferences'
                 version = '0.1'
             }
         }

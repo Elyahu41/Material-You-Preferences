@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.github.tstewart.materialpreferencesfragment.preferences.MaterialHeaderSwitchPreference
+    <com.github.tttt55.materialyoupreferences.preferences.MaterialHeaderSwitchPreference
         android:title="Enable notifications"
         android:key="notifications_enabled"/>
-    <com.github.tstewart.materialpreferencesfragment.preferences.MaterialPreference
+    <com.github.tttt55.materialyoupreferences.preferences.MaterialPreference
         android:title="Notification Time"
         android:key="notification_time"
         android:enabled="false"/>

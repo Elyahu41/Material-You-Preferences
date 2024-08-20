@@ -4,7 +4,7 @@
 
     <PreferenceCategory android:title="EditText">
 
-        <com.github.tstewart.materialpreferencesfragment.preferences.MaterialEditTextPreference
+        <com.github.tttt55.materialyoupreferences.preferences.MaterialEditTextPreference
             android:defaultValue="Default value"
             android:key="edit_text_preference_1"
             android:selectAllOnFocus="true"
@@ -13,7 +13,7 @@
             app:icon="@drawable/ic_phone"
             app:summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
 
-        <com.github.tstewart.materialpreferencesfragment.preferences.MaterialEditTextPreference
+        <com.github.tttt55.materialyoupreferences.preferences.MaterialEditTextPreference
             android:defaultValue="Default value"
             android:key="edit_text_preference_2"
             android:selectAllOnFocus="true"
@@ -21,19 +21,19 @@
             android:title="Edit text (no icon)" />
     </PreferenceCategory>
     <PreferenceCategory android:title="Switch">
-        <com.github.tstewart.materialpreferencesfragment.preferences.MaterialSwitchPreference
+        <com.github.tttt55.materialyoupreferences.preferences.MaterialSwitchPreference
             android:defaultValue="false"
             android:key="switch_preference_1"
             android:title="Switch preference"
             app:summary="Lorem ipsum dolor sit amet"
             app:icon="@drawable/ic_wifi" />
-        <com.github.tstewart.materialpreferencesfragment.preferences.MaterialSwitchPreference
+        <com.github.tttt55.materialyoupreferences.preferences.MaterialSwitchPreference
             android:defaultValue="false"
             android:key="switch_preference_2"
             android:title="Switch (no icon)" />
     </PreferenceCategory>
     <PreferenceCategory android:title="List">
-        <com.github.tstewart.materialpreferencesfragment.preferences.MaterialListPreference
+        <com.github.tttt55.materialyoupreferences.preferences.MaterialListPreference
             android:defaultValue="1"
             android:entries="@android:array/phoneTypes"
             android:entryValues="@android:array/phoneTypes"
@@ -41,7 +41,7 @@
             android:title="List preference"
             app:icon="@drawable/ic_fire"
             app:summary="Lorem Ipsum" />
-        <com.github.tstewart.materialpreferencesfragment.preferences.MaterialListPreference
+        <com.github.tttt55.materialyoupreferences.preferences.MaterialListPreference
             android:defaultValue="1"
             android:entries="@android:array/phoneTypes"
             android:entryValues="@android:array/phoneTypes"
@@ -50,14 +50,14 @@
             app:summary="Lorem Ipsum" />
     </PreferenceCategory>
     <PreferenceCategory android:title="MultiSelectList">
-        <com.github.tstewart.materialpreferencesfragment.preferences.MaterialMultiSelectListPreference
+        <com.github.tttt55.materialyoupreferences.preferences.MaterialMultiSelectListPreference
             android:defaultValue="@android:array/emailAddressTypes"
             android:entries="@android:array/emailAddressTypes"
             android:entryValues="@android:array/emailAddressTypes"
             android:key="multi_select_list_preference_1"
             android:title="Multi select list preference"
             android:icon="@drawable/ic_link"/>
-        <com.github.tstewart.materialpreferencesfragment.preferences.MaterialMultiSelectListPreference
+        <com.github.tttt55.materialyoupreferences.preferences.MaterialMultiSelectListPreference
             android:defaultValue="@android:array/emailAddressTypes"
             android:entries="@android:array/emailAddressTypes"
             android:entryValues="@android:array/emailAddressTypes"

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.github.tstewart.materialpreferencesfragment.preferences.MaterialSwitchPreference
+    <com.github.tttt55.materialyoupreferences.preferences.MaterialSwitchPreference
         android:title="Gestures"
         android:key="gestures_enabled"
         android:icon="@drawable/settings_icon_gesture"/>
-    <com.github.tstewart.materialpreferencesfragment.preferences.MaterialSwitchPreference
+    <com.github.tttt55.materialyoupreferences.preferences.MaterialSwitchPreference
         android:title="Auto clipping"
         android:key="clipping_enabled"
         android:summary="Remove empty lines from Accomplishment posts"
         android:icon="@drawable/settings_icon_clip"/>
-    <com.github.tstewart.materialpreferencesfragment.preferences.MaterialListPreference
+    <com.github.tttt55.materialyoupreferences.preferences.MaterialListPreference
         android:title="Maximum Rating"
         android:key="max_rating"
         android:icon="@drawable/settings_icon_mood"

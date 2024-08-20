@@ -1,4 +1,4 @@
-package com.github.tstewart.materialpreferencesfragment.preferences;
+package com.github.tttt55.materialyoupreferences.preferences;
 
 import android.content.Context;
 import android.text.Editable;
@@ -13,19 +13,19 @@ import androidx.annotation.Nullable;
 import androidx.preference.PreferenceViewHolder;
 import androidx.preference.SwitchPreference;
 
-import com.github.tstewart.materialpreferencesfragment.R;
+import com.github.tttt55.materialyoupreferences.R;
 
-public class MaterialSwitchPreference extends SwitchPreference {
+public class MaterialSwitchGooglePreference extends SwitchPreference {
 
     TextView mTitleTextView;
     TextView mSummaryTextView;
 
-    public MaterialSwitchPreference(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public MaterialSwitchGooglePreference(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        setLayoutResource(R.layout.material_preference_switch);
+        setLayoutResource(R.layout.material_preference_switch_google);
     }
 
-    public MaterialSwitchPreference(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public MaterialSwitchGooglePreference(@NonNull Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 

@@ -1,4 +1,4 @@
-package com.github.tstewart.materialpreferencesfragment;
+package com.github.tttt55.materialyoupreferences;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -9,9 +9,7 @@ import android.os.Bundle;
 
 import com.google.android.material.color.DynamicColors;
 
-import java.util.List;
-
-import com.github.tstewart.materialpreferencesfragment.R;
+import com.github.tttt55.materialyoupreferences.R;
 
 public class MainActivity extends AppCompatActivity implements PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 

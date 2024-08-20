@@ -1,4 +1,4 @@
-package com.github.tstewart.materialpreferencesfragment;
+package com.github.tttt55.materialyoupreferences;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,16 +6,13 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.core.widget.NestedScrollView;
-import androidx.fragment.app.FragmentManager;
 import androidx.preference.PreferenceFragmentCompat;
 
 //import com.google.android.material.appbar.MaterialToolbar;
 
-import com.github.tstewart.materialpreferencesfragment.R;
+import com.github.tttt55.materialyoupreferences.R;
 
 public abstract class MaterialPreferencesFragment extends PreferenceFragmentCompat
         implements View.OnScrollChangeListener {

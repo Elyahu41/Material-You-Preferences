@@ -25,7 +25,7 @@ dependencies {
 
 2) XML preferences:
 
-Add the desired preferences ( `MaterialPreference` , `MaterialSwitchPreference`, `MaterialSwitchGooglePreference` , `MaterialHeaderSwitchPreference` , `MaterialListPreference` , `MaterialEditTextPreference` )
+Add the desired preferences ( `MaterialPreference` , `MaterialSwitchPreference`, `MaterialSwitchGooglePreference` , `MaterialHeaderSwitchPreference` , `MaterialListPreference` , `MaterialEditTextPreference`, `MaterialColorPreference` , `MaterialSeekBarPreference` )
  to your preference XML:
 
 ```xml
@@ -34,7 +34,7 @@ Add the desired preferences ( `MaterialPreference` , `MaterialSwitchPreference`,
 
   <PreferenceCategory>
 
-    <com.github.tstewart.materialpreferencesfragment.preferences.MaterialPreference
+    <com.github.tttt55.materialyoupreferences.preferences.MaterialPreference
 
         android:key="preference_one"
         app:icon="@drawable/ic_pref_icon"
@@ -54,5 +54,5 @@ To remove dividers between preferences in XML, use the following attributes:
 
 ```app:allowDividerAbove="false"``` or ```app:allowDividerBelow="false"```
 
-MaterialSwitchPreference is the switch you commonly see in AOSP android 12 and later, while MaterialSwitchGooglePreference is the "preferenced" version of Google's MaterialSwitch.
+MaterialSwitchPreference is the switch you commonly see in AOSP android 12-14, while MaterialSwitchGooglePreference is the "preferenced" version of Google's MaterialSwitch as seen in android 15 developer preview.
 

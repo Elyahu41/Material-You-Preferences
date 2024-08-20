@@ -1,12 +1,12 @@
-package com.github.tstewart.materialpreferencesfragment.sample;
+package com.github.tttt55.materialyoupreferences.sample;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 
-import com.github.tstewart.materialpreferencesfragment.MaterialPreferencesFragment;
+import com.github.tttt55.materialyoupreferences.MaterialPreferencesFragment;
 
-import com.github.tstewart.materialpreferencesfragment.R;
+import com.github.tttt55.materialyoupreferences.R;
 
 public class GeneralPreferenceFragment extends MaterialPreferencesFragment {
     @Override

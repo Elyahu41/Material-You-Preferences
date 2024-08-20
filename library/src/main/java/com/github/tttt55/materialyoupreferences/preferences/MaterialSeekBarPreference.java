@@ -1,4 +1,4 @@
-package com.github.tstewart.materialpreferencesfragment.preferences;
+package com.github.tttt55.materialyoupreferences.preferences;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,7 +15,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.github.tstewart.materialpreferencesfragment.R;
+import com.github.tttt55.materialyoupreferences.R;
 
 public class MaterialSeekBarPreference extends Preference implements SeekBar.OnSeekBarChangeListener {
     protected final String TAG = getClass().getName();

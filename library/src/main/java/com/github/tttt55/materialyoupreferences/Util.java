@@ -1,10 +1,7 @@
-package com.github.tstewart.materialpreferencesfragment;
+package com.github.tttt55.materialyoupreferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.graphics.Color;
-
-import androidx.core.content.ContextCompat;
 
 public class Util {
 

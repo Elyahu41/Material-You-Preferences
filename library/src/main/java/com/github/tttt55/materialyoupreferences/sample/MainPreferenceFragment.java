@@ -1,4 +1,4 @@
-package com.github.tstewart.materialpreferencesfragment.sample;
+package com.github.tttt55.materialyoupreferences.sample;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -9,9 +9,9 @@ import androidx.annotation.Nullable;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
-import com.github.tstewart.materialpreferencesfragment.MaterialPreferencesFragment;
+import com.github.tttt55.materialyoupreferences.MaterialPreferencesFragment;
 
-import com.github.tstewart.materialpreferencesfragment.R;
+import com.github.tttt55.materialyoupreferences.R;
 
 public class MainPreferenceFragment extends MaterialPreferencesFragment {
     @Override
