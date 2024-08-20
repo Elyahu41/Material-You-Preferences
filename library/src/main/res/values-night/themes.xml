@@ -36,13 +36,15 @@
 
         <item name="materialAlertDialogTheme">@style/Theme.AppTheme.MaterialDialog</item>
         <item name="alertDialogTheme">@style/Theme.AppTheme.MaterialDialog</item>
+
+        <item name="seekBarPreferenceStyle">@style/Preference.SeekBarPreference</item>
     </style>
 
     <style name="Theme.AppTheme.MaterialPreference">
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:paddingStart">24dp</item>
-        <item name="android:paddingTop">12dp</item>
-        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">@dimen/preference_padding_start</item>
+        <item name="android:paddingEnd">@dimen/preference_padding_end</item>
+        <item name="android:paddingTop">@dimen/preference_padding_top</item>
+        <item name="android:paddingBottom">@dimen/preference_padding_bottom</item>
     </style>
 
     <style name="Theme.AppTheme.MaterialDialog" parent="ThemeOverlay.Material3.Dialog.Alert">
@@ -99,7 +101,7 @@
 
     <style name="Theme.AppTheme.MaterialPreferenceCategory.Text" parent="TextAppearance.Material3.LabelLarge">
         <item name="android:textColor">?colorPrimary</item>
-        <item name="android:padding">24dp</item>
+        <item name="android:padding">@dimen/preference_category_padding</item>
         <item name="android:textStyle">normal</item>
     </style>
 </resources>
