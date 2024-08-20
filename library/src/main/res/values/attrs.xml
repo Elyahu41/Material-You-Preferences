@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialSeekBarPreference">
+        <attr name="defaultValueText" format="string" />
+        <attr name="interval" format="integer" />
+        <attr name="showSign" format="boolean" />
+        <attr name="units" format="string|reference" />
+        <attr name="continuousUpdates" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="seekBarPreferenceStyle" format="reference" />
+    </declare-styleable>
+</resources>

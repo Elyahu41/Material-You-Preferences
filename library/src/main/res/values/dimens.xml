@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="preference_padding_start">18dp</dimen>
+    <dimen name="preference_padding_end">18dp</dimen>
+    <dimen name="preference_padding_top">10dp</dimen>
+    <dimen name="preference_padding_bottom">10dp</dimen>
+    <dimen name="preference_category_padding">18dp</dimen>
+</resources>
