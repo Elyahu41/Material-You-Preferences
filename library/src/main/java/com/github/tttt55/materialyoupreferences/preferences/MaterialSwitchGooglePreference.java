@@ -36,6 +36,8 @@ public class MaterialSwitchGooglePreference extends SwitchPreference {
         mTitleTextView = (TextView) holder.itemView.findViewById(android.R.id.title);
         mSummaryTextView = (TextView) holder.itemView.findViewById(android.R.id.summary);
 
+        mTitleTextView.setSelected(true);
+
         if(mSummaryTextView != null) {
 
             if(mSummaryTextView.getText() == null || mSummaryTextView.getText().toString().isEmpty()) {
