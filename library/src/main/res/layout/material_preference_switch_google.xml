@@ -26,10 +26,11 @@
             <TextView
                 android:id="@android:id/title"
                 style="@style/TextAppearance.Material3.TitleLarge"
+                android:autoSizeMaxTextSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ellipsize="marquee"
                 android:singleLine="true"
+                android:ellipsize="marquee"
                 android:layout_gravity="center_vertical" />
 
             <TextView
@@ -37,7 +38,6 @@
                 style="Theme.AppTheme.MaterialPreference.Summary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:maxWidth="200dp"
                 android:layout_marginTop="3dp"/>
 
         </LinearLayout>
@@ -50,7 +50,7 @@
                 android:id="@android:id/switch_widget"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="24dp"
+                android:paddingStart="18dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:clickable="false"

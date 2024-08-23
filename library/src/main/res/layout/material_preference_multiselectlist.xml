@@ -27,6 +27,7 @@
             <TextView
                 android:id="@android:id/title"
                 style="@style/TextAppearance.Material3.TitleLarge"
+                android:autoSizeMaxTextSize="20sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
