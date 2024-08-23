@@ -35,7 +35,7 @@
                 style="Theme.AppTheme.MaterialPreference.Summary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:maxWidth="280dp"
+                android:maxWidth="274dp"
                 android:layout_marginTop="3dp"/>
 
         </LinearLayout>
@@ -48,6 +48,7 @@
                 android:id="@android:id/switch_widget"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:clickable="false"

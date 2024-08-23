@@ -9,6 +9,6 @@
         android:layout_height="wrap_content"
         android:textColor="?attr/colorOnPrimaryContainer"
         android:paddingStart="@dimen/preference_padding_start"
-        android:paddingTop="8dp"
+        android:paddingTop="16dp"
         android:paddingEnd="@dimen/preference_padding_end"/>
 </LinearLayout>
