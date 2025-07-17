@@ -1,5 +1,8 @@
 
 <resources>
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+    </style>
+
     <style name="Theme.AppTheme.MaterialPreference">
         <item name="android:paddingStart">@dimen/preference_padding_start</item>
         <item name="android:paddingEnd">@dimen/preference_padding_end</item>
