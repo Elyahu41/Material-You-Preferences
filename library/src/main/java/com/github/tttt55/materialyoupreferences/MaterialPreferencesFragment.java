@@ -25,41 +25,15 @@ public abstract class MaterialPreferencesFragment extends PreferenceFragmentComp
 
     //TextView mToolbarTitle;
 
-    TextView mTitle;
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (savedInstanceState != null) {
-            String title = savedInstanceState.getString("title");
-            if(title != null) {
-                mTitle.setText(title);
-            }
-        }
-    }
-
-    @Override
-    public void onSaveInstanceState(@NonNull Bundle outState) {
-        super.onSaveInstanceState(outState);
-        outState.putString("title", mTitle.getText().toString());
-    }
-
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         mSettingsScrollView = view.findViewById(R.id.settingsScrollView);
         //mToolbar = view.findViewById(R.id.toolbar);
         //mToolbarTitle = view.findViewById(R.id.toolbarTitle);
-        mTitle = view.findViewById(R.id.textViewTitle);
 
         // Set title from args
         Bundle args = getArguments();
-        if(args != null && mTitle.getText() != null) {
-            CharSequence title = args.getCharSequence("title");
-            if (title != null) {
-                setTitle(title);
-            }
-        }
 
         // Resolve colors for status bar
         COLOR_TRANSPARENT = ContextCompat.getColor(getContext(), android.R.color.transparent);
@@ -76,7 +50,7 @@ public abstract class MaterialPreferencesFragment extends PreferenceFragmentComp
         if(mSettingsScrollView != null
                 //&& mToolbar != null
                 //&& mToolbarTitle != null
-                && mTitle != null) {
+        ) {
             //mToolbar.setBackgroundColor(COLOR_TRANSPARENT);
             //mToolbarTitle.setAlpha(0);
             mSettingsScrollView.setOnScrollChangeListener(this);
@@ -97,11 +71,9 @@ public abstract class MaterialPreferencesFragment extends PreferenceFragmentComp
     @Override
     public void onScrollChange(View view, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
         int[] titleLocation = new int[2];
-        mTitle.getLocationInWindow(titleLocation);
 
         float titleAlpha = Float.max(0, (float)(titleLocation[1] - 100) / 100);
         //float toolbarAlpha = (float) -titleLocation[1] / 100;
-        mTitle.setAlpha(titleAlpha);
         //mToolbarTitle.setAlpha(toolbarAlpha);
 
         if(titleLocation[1]<=100) {
@@ -111,15 +83,5 @@ public abstract class MaterialPreferencesFragment extends PreferenceFragmentComp
             //mToolbar.setBackgroundColor(COLOR_TRANSPARENT);
             getActivity().getWindow().setStatusBarColor(COLOR_TRANSPARENT);
         }
-    }
-
-    public void setTitle(CharSequence title) {
-        mTitle.setText(title);
-        //mToolbarTitle.setText(title);
-    }
-
-    public void setTitle(int stringRes) {
-        mTitle.setText(stringRes);
-        //mToolbarTitle.setText(stringRes);
     }
 }
