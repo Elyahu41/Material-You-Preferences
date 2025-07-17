@@ -38,12 +38,6 @@
             android:layout_height="match_parent"
             android:layout_width="match_parent"
             android:orientation="vertical">
-            <TextView
-                android:id="@+id/textViewTitle"
-                style="@style/Theme.AppTheme.MaterialPreferencesFragment.Title"
-                android:layout_height="wrap_content"
-                android:layout_width="240dp"
-                android:text="@string/preferences_page_title_default" />
 
             <FrameLayout
                 android:id="@android:id/list_container"
