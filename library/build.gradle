@@ -1,6 +1,7 @@
-apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
-group = 'com.github.tttt55'
+plugins {
+    id 'maven-publish'
+    id 'com.android.library'
+}
 
 android {
     namespace 'com.github.tttt55.materialyoupreferences'
@@ -22,12 +23,16 @@ android {
         }
     }
 
-    defaultPublishConfig "productionRelease"
-    publishNonDefault true
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
+    }
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
     }
 }
 
@@ -42,4 +47,18 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel:2.9.3"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.3"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.github.tttt55'
+            artifactId = 'MaterialYouPreferences'
+            version = '0.1'
+
+            afterEvaluate {
+                from components["release"]
+            }
+        }
+    }
 }
