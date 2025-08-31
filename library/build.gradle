@@ -52,9 +52,7 @@ dependencies {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.github.tttt55'
             artifactId = 'MaterialYouPreferences'
-            version = '0.1'
 
             afterEvaluate {
                 from components["release"]

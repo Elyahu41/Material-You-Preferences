@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
 
-    implementation 'com.github.TTTT55:Material-You-Preferences:$latest_version'
+    implementation 'com.github.Elyahu41:Material-You-Preferences:$latest_version'
 
 }
 
